@@ -1,0 +1,36 @@
+.bi{
+    color: white;
+    font-size: 1.5rem;
+}
+header{
+    border:1px solid #2d78bd; 
+    width: 100%; 
+    height: auto; 
+    max-height: 200px; 
+    background: #342b96;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    border: none;
+    background: none;
+}
+#mainMenu{
+    display: none;
+}
+.menu ul{
+    list-style: none;
+    display: inline-block;
+}
+#botonera button{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    background: none;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+}
+#logo{
+    width: 70px;
+}
